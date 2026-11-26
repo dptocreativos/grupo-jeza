@@ -1168,7 +1168,7 @@
         window.open(url, "_blank");
 
         // REGISTRAR CONTACTO EN GOOGLE SHEETS
-        fetch("https://script.google.com/macros/s/AKfycbwQ2Fiu9alNs1ulHmW7SmGgMAyGST-xMI6Nf21zo3_FNwcss1GtSOeCuo19tL5uPU2N/exec", {
+        fetch("https://script.google.com/macros/s/AKfycbxmbLr-CgfAoUUlQjk-mGpqMx2yJ93WfwSwd3k43pveTYcEf_xMGq-tjgR_dd-R64Rm/exec", {
         method: "POST",
         mode: "no-cors",
         body: JSON.stringify(datos)
