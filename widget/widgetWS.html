@@ -1,0 +1,68 @@
+<div id="waWidget">
+    
+
+    <!-- VENTANA DEL CHAT -->
+    <div class="popup" id="popup">
+
+        <div class="header">
+            <img class="avatar" src="https://static.wixstatic.com/media/c8838d_ab7cfa595fba4313a562cb3e8b0b7a00~mv2.jpg" alt="Grupo Jeza">
+
+            <div class="info">
+                <p class="name">Grupo Jeza®</p>
+                <p class="subtitle">Estamos en línea</p>
+            </div>
+
+            <button class="close" id="close" aria-label="Cerrar" type="button">×</button>
+        </div>
+
+        <div class="body">
+            <form id="form">
+
+                <!-- NOMBRE -->
+                <input class="input" id="nombre" type="text" placeholder="Nombre" required>
+
+                <!-- WHATSAPP -->
+                <div class="phone-group">
+
+                    <!-- SELECTOR PERSONALIZADO -->
+                    <div class="country-box" id="countryBox">
+
+                        <button class="country-trigger" id="countryTrigger" type="button" aria-label="Seleccionar país" aria-expanded="false">
+                            <img id="countryFlag" src="https://flagcdn.com/w40/ve.png" alt="Venezuela">
+
+                            <span class="code" id="selectedCode">+58</span>
+
+                            <span class="arrow">▼</span>
+                        </button>
+
+                        <!-- DESPLEGABLE -->
+                        <div class="country-list" id="countryList">
+
+                            <input class="country-search" id="countrySearch" type="text" placeholder="Buscar país..." autocomplete="off">
+
+                            <div id="countryOptions"></div>
+
+                        </div>
+                    </div>
+
+                    <!-- NÚMERO -->
+                    <input class="input phone-number" id="telefono" type="tel" placeholder="Número" autocomplete="tel-national" required>
+
+                </div>
+
+                <!-- ENVIAR -->
+                <button class="send" type="submit">
+                    Enviar mensaje <span>➤</span>
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- BOTÓN FLOTANTE -->
+    <button class="float" id="open" aria-label="Contactar por WhatsApp" type="button">
+        <img src="https://static.wixstatic.com/media/c8838d_68010cbfa37f494b9ecd88f2453ec411~mv2.jpg" alt="WhatsApp">
+    </button>
+
+
+</div>
